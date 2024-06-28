@@ -1,4 +1,4 @@
 name: carrent
 
 packages:
-  - packages/**
+  - packages/*

@@ -11,6 +11,8 @@ dependencies:
   firebase_core: ^3.1.1
   flutter:
     sdk: flutter
+  onboarding: 
+    path: ./packages/onboarding
 
 dev_dependencies:
   flutter_test:
