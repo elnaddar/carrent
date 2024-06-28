@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "473891622455",
+    "project_id": "carrent-flutter-app",
+    "storage_bucket": "carrent-flutter-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473891622455:android:dff1bc9769257f844179b2",
+        "android_client_info": {
+          "package_name": "com.example.carrent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlvmi7GhucLVLnP0yX_1fjGUPSbFhbhJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
