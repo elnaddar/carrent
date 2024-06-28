@@ -23,19 +23,22 @@ class OnboardingText extends StatelessWidget {
             Text(
               "Premium cars.\nEnjoy the luxury",
               style: context.theme.textTheme.headlineLarge!.copyWith(
-                color: Colors.black54,
+                color: Colors.white70,
                 fontWeight: FontWeight.bold,
               ),
+              textAlign: TextAlign.center,
             ),
             space,
             Text(
               "Premium and prestige car daily rental.\nExperience the thrill at a lower price.",
               style: context.theme.textTheme.bodyMedium!
                   .copyWith(color: Colors.grey),
+              textAlign: TextAlign.center,
             ),
-            space,
+            const SizedBox(height: 32),
             SizedBox(
-              width: 318,
+              width: 218,
+              height: 42,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   foregroundColor: Colors.black,

@@ -28,13 +28,14 @@ class OnboardingPage extends StatelessWidget {
       columnWidth = screenWidth;
     }
     return Scaffold(
+        backgroundColor: const Color(0xff2c2b34),
         body: ListView(
-      scrollDirection: direction,
-      children: [
-        const OnboardingImage(
-            imgMaxWidth: imgMaxWidth, imgMaxHeight: imgMaxHeight),
-        OnboardingText(columnWidth: columnWidth, space: space)
-      ],
-    ));
+          scrollDirection: direction,
+          children: [
+            const OnboardingImage(
+                imgMaxWidth: imgMaxWidth, imgMaxHeight: imgMaxHeight),
+            OnboardingText(columnWidth: columnWidth, space: space)
+          ],
+        ));
   }
 }
