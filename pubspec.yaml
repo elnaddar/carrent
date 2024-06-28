@@ -1,7 +1,7 @@
 name: carrent
 description: "A new Flutter project."
 publish_to: 'none'
-version: 0.1.0
+version: 0.1.1
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
@@ -13,6 +13,8 @@ dependencies:
     sdk: flutter
   onboarding: 
     path: ./packages/onboarding
+  utils:
+    path: ./packages/utils
 
 dev_dependencies:
   flutter_test:
