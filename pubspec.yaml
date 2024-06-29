@@ -9,16 +9,12 @@ environment:
 dependencies:
   cloud_firestore: ^5.0.2
   data:
-    path: ./packages/data
   firebase_core: ^3.1.1
   flutter:
     sdk: flutter
   screens: 
-    path: ./packages/screens
   utils:
-    path: ./packages/utils
   widgets:
-    path: ./packages/widgets
 
 dev_dependencies:
   flutter_test:

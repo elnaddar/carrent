@@ -1,6 +1,7 @@
 name: carrent
 
 packages:
+  - .
   - packages/*
 
 scripts:

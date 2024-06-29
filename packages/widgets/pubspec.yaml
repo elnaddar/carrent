@@ -9,11 +9,9 @@ environment:
 
 dependencies:
   data:
-    path: ../data
   flutter:
     sdk: flutter
   utils:
-    path: ../utils
 
 dev_dependencies:
   flutter_test:

@@ -1,0 +1,10 @@
+# melos_managed_dependency_overrides: data,screens,utils,widgets
+dependency_overrides:
+  data:
+    path: packages\\data
+  screens:
+    path: packages\\screens
+  utils:
+    path: packages\\utils
+  widgets:
+    path: packages\\widgets
