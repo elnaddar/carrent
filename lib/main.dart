@@ -1,8 +1,8 @@
-import 'package:car_card/car_card.dart';
 import 'package:carrent/firebase_options.dart';
+import 'package:data/models.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:onboarding/onboarding.dart';
+import 'package:widgets/widgets.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

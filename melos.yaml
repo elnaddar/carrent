@@ -2,3 +2,7 @@ name: carrent
 
 packages:
   - packages/*
+
+scripts:
+  pub:
+    exec: flutter pub
