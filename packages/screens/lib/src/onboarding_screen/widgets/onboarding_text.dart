@@ -1,14 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:utils/utils.dart';
 
+/// A widget that displays onboarding text with customizable spacing and width.
 class OnboardingText extends StatelessWidget {
+  /// Creates a new instance of [OnboardingText].
+  ///
+  /// [columnWidth] and [space] are required.
   const OnboardingText({
-    super.key,
     required this.columnWidth,
     required this.space,
+    super.key,
   });
 
+  /// The width of the column containing the text.
   final double columnWidth;
+
+  /// The spacing widget between text elements.
   final SizedBox space;
 
   @override
@@ -30,9 +37,11 @@ class OnboardingText extends StatelessWidget {
             ),
             space,
             Text(
-              'Premium and prestige car daily rental.\nExperience the thrill at a lower price.',
-              style: context.theme.textTheme.bodyMedium!
-                  .copyWith(color: Colors.grey),
+              'Premium and prestige car daily rental.\n'
+              'Experience the thrill at a lower price.',
+              style: context.theme.textTheme.bodyMedium!.copyWith(
+                color: Colors.grey,
+              ),
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 32),
@@ -50,7 +59,7 @@ class OnboardingText extends StatelessWidget {
                 onPressed: () {},
                 child: const Text("Let's Go"),
               ),
-            )
+            ),
           ],
         ),
       ),

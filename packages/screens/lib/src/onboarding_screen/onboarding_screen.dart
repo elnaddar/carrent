@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'widgets/onboarding_image.dart';
-import 'widgets/onboarding_text.dart';
+import 'package:screens/src/onboarding_screen/widgets/onboarding_image.dart';
+import 'package:screens/src/onboarding_screen/widgets/onboarding_text.dart';
 import 'package:utils/utils.dart';
 
+/// A screen that displays onboarding content with an image and text.
 class OnboardingScreen extends StatelessWidget {
+  /// Creates a new instance of [OnboardingScreen].
   const OnboardingScreen({super.key});
 
   @override
@@ -14,6 +16,7 @@ class OnboardingScreen extends StatelessWidget {
     late final Axis direction;
     late final SizedBox space;
     late final double columnWidth;
+
     if (screenWidth >= (imgMaxWidth * 3 + 25)) {
       direction = Axis.horizontal;
       space = const SizedBox(height: 24);
@@ -27,6 +30,7 @@ class OnboardingScreen extends StatelessWidget {
       space = const SizedBox(height: 10);
       columnWidth = screenWidth;
     }
+
     return Scaffold(
       backgroundColor: const Color(0xff2c2b34),
       body: ListView(
